@@ -95,7 +95,7 @@ export default function Home() {
               </div>
               <h3 className="text-xl font-semibold mb-3 text-center text-gray-800">个性化营养计划</h3>
               <p className="text-gray-600 text-center">
-                基于您的基因数据和生活习惯，为您量身定制科学的营养补充方案。
+                基于您的检测数据和生活习惯，为您量身定制科学的营养补充方案。
               </p>
             </div>
             {/* Service Card 2 */}
