@@ -121,7 +121,12 @@ export default function PrivacyPolicyPage() {
         </div>
       </main>
       <footer className="mt-16 py-8 border-t border-gray-200 text-center text-gray-500">
-        <p>&copy; {new Date().getFullYear()} 盈养科技. 保留所有权利.</p>
+        <p className="mb-2">&copy; {new Date().getFullYear()} 盈养科技. 保留所有权利.</p>
+        <p className="text-sm">
+          <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="hover:text-green-600 transition-colors">
+            京ICP备2024102634号-2
+          </a>
+        </p>
       </footer>
     </div>
   );

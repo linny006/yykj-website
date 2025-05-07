@@ -163,8 +163,13 @@ export default function Home() {
       <footer className="bg-gray-800 text-gray-300 py-12">
         <div className="container mx-auto px-6 text-center">
           <p className="mb-2">&copy; {new Date().getFullYear()} 盈养科技. 保留所有权利.</p>
-          <p className="text-sm">
+          <p className="text-sm mb-2">
             <Link href="/privacy-policy" className="hover:text-green-400 transition-colors">隐私政策</Link> | <Link href="/terms-of-service" className="hover:text-green-400 transition-colors">服务条款</Link>
+          </p>
+          <p className="text-sm">
+            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" className="hover:text-green-400 transition-colors">
+              京ICP备2024102634号-2
+            </a>
           </p>
         </div>
       </footer>
